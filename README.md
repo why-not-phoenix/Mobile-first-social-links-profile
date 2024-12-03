@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/why-not-phoenix/Mobile-first-social-links-profile](https://github.com/why-not-phoenix/Mobile-first-social-links-profile)
+- Live Site URL: [https://why-not-phoenix.github.io/Mobile-first-social-links-profile/](https://why-not-phoenix.github.io/Mobile-first-social-links-profile/)
 
 ## My process
 
