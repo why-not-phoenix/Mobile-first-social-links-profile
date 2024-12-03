@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Card Styles */
+.card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 550px;
+    width: 280px;
+    padding: 25px;
+}
+
+/* Profile Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-pics-container img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.address {
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin: 0;
+}
+
+/* Status and Social Buttons */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.buttons button {
+    height: 45px;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* Buttons on hover */
+.buttons button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media Query for larger devices */
+@media (min-width: 760px) {
+    .card {
+        height: 550px;
+        width: 310px;
+        padding: 30px 40px;
+    }
+}
